@@ -1,0 +1,59 @@
+*{
+    background-color: rgb(12, 1, 1);
+    font-family: "Helvetica","Open Sans", sans-serif;
+}
+h1 {
+    color: blueviolet;
+  }
+  
+  h2 {
+    color: chartreuse;
+  }
+  h3{
+  
+    color: rgb(255, 60, 0);
+  }
+  .form{
+    text-align: center;
+    color: brown;
+    text-emphasis: bold;
+  }
+  p{
+    color: cyan;
+  }
+ .mainform{
+  text-align: center;
+  color:rgb(223, 82, 35);
+  font-size: large;
+  }
+ #main .heading{
+  text-align: center;
+  color:rgb(8, 236, 19)
+ }
+ .search {
+  text-align: center;
+ }
+ .list{
+   color: deeppink;
+ }
+.anothersearch{
+  color:black;
+  background-color: white;
+}
+  input{
+    background-color: rgba(12, 7, 77, 0.089);
+    color: deeppink
+
+  } 
+  .error{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+  }
+  .not-found{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+
+  }

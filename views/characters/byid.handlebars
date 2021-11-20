@@ -1,0 +1,17 @@
+<main class ="searchid">
+<div>
+  <h1 class="heading">{{{title}}}</h1>
+  <img src={{image}} alt='{{title}}' class="image">
+{{!-- <p> --}}
+<p>{{character.description}}</p> 
+{{!-- </p> --}}
+<h2>Comics</h2>
+<ul>
+   {{#each character.comics.items}}
+    <li class="list">{{name}}</li>
+    {{/each}}
+</ul>
+</div>
+{{!-- <a href="/" class="heading">Make another search</a> --}}
+</main>
+
