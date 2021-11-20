@@ -1,0 +1,23 @@
+ <main id="main">
+     <h1 class="heading">{{title}}</h1>
+        <p class="mainform"> 
+            This website allows you search characters from your favorite Marvel comics.
+            <br>The Marvel Comics API allows developers everywhere to access information about Marvel's vast library of comics—from what's coming up, to 70 years ago.
+            <br>Know more here: <a href="https://developer.marvel.com/" target="_blank">https://developer.marvel.com/</a>
+        </p>
+        <br>
+        <form method ="POST" action="/search" id="myForm" class="form">
+            <label>
+              Search:
+            <input type = "text" placeholder="type here" name="searchTerm" value="{{searchTerm}}" />
+            </label>
+            <input type="submit" title="find"/>
+        </form>
+        {{#if hasErrors}}
+        <ul class="error">
+        <li>
+      {{error}}
+        </li>
+  </ul>
+  {{/if}}
+</main>

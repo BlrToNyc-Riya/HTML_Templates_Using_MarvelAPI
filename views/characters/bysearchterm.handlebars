@@ -1,0 +1,16 @@
+{{#if characters}}
+<h1 class="search">{{{title}}}</h1>
+<h2 class="search">Search Term: {{{searchTerm}}}</h2>
+<main class="search">
+{{!-- <h3>Below are the 20 Marvel characters that match the searchterm</h3> --}}
+    <ul>
+    {{#each characters}}  
+    <li ><a href="/characters/{{id}}">{{name}}</a></li>
+    {{/each}}
+    </ul>
+    <br><br>
+</main>     
+{{else}}
+<p class="not-found">We're sorry, but no results were found for {{searchTerm}}.</p>
+{{/if}}
+<a href="/" class="heading">Make another search</a>
