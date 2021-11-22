@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/201f9354-7b39-4162-a518-0872480190cb/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/findmarvelcharacter1",
+    "appService.deploySubpath": "."
+}
